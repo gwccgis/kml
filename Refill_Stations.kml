@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Refill_Stations</name>
+	<Schema id="Refill_Stations">
+		<SimpleField type="string" name="description"></SimpleField>
+		<SimpleField type="string" name="Location"></SimpleField>
+		<SimpleField type="string" name="LGA"></SimpleField>
+	</Schema>
+	<Style id="style">
+		<IconStyle>
+			<Icon>
+				<href>color_style.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder id="Temora Shire Council">
+		<name>Temora Shire Council</name>
+		<Placemark>
+			<name>Temora</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Paleface Park (corner of Hoskins and Loftus Streets), Temora</SimpleData>
+					<SimpleData name="Location">Temora</SimpleData>
+					<SimpleData name="LGA">Temora Shire Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>147.53409714,-34.446590396,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="Narrandera Shire Council">
+		<name>Narrandera Shire Council</name>
+		<Placemark>
+			<name>Barellan</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Barellan Sportsground (Mulga Street), Barellan</SimpleData>
+					<SimpleData name="Location">Barellan</SimpleData>
+					<SimpleData name="LGA">Narrandera Shire Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>146.573277957,-34.288913177,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="Hilltops Council">
+		<name>Hilltops Council</name>
+		<Placemark>
+			<name>Young</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Keith Cullen Oval (start of Burrangong Creek pathway), Young</SimpleData>
+					<SimpleData name="Location">Young</SimpleData>
+					<SimpleData name="LGA">Hilltops Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.304022806,-34.3158416354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harden</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Newson Park (adjacent to the swimming pool), Harden</SimpleData>
+					<SimpleData name="Location">Harden</SimpleData>
+					<SimpleData name="LGA">Hilltops Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.369791107,-34.5557537471,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="Cootamundra-Gundagai Regional Council">
+		<name>Cootamundra-Gundagai Regional Council</name>
+		<Placemark>
+			<name>Cootamundra</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Gordon Vesperman Park (Bourke Street), Cootamundra</SimpleData>
+					<SimpleData name="Location">Cootamundra</SimpleData>
+					<SimpleData name="LGA">Cootamundra-Gundagai Regional Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>148.022947391,-34.6355974028,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="Coolamon Shire Council">
+		<name>Coolamon Shire Council</name>
+		<Placemark>
+			<name>Coolamon</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Lions Park (Corner Cowabbie and Wade Streets), Coolamon</SimpleData>
+					<SimpleData name="Location">Coolamon</SimpleData>
+					<SimpleData name="LGA">Coolamon Shire Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>147.200712308,-34.8164305311,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="Bland Shire Council">
+		<name>Bland Shire Council</name>
+		<Placemark>
+			<name>West Wyalong</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">McCann Park (Mid Western Highway), West Wyalong</SimpleData>
+					<SimpleData name="Location">West Wyalong</SimpleData>
+					<SimpleData name="LGA">Bland Shire Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>147.200952081,-33.9218565544,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="Junee Shire Council">
+		<name>Junee Shire Council</name>
+		<Placemark>
+			<name>Junee</name>
+			<styleUrl>#style</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Refill_Stations">
+					<SimpleData name="description">Skate Park (Lorne Street), Junee</SimpleData>
+					<SimpleData name="Location">Junee</SimpleData>
+					<SimpleData name="LGA">Junee Shire Council</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>147.583878668,-34.8741755447,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
